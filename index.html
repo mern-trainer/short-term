@@ -30,7 +30,7 @@
 
         <!-- list, table -->
         
-        <!-- ol, ul -->
+        <!-- ol, ul, dl -->
 
         <br>
 
@@ -73,6 +73,14 @@
             </ul>
         </ul>
 
+        <!-- Description list -->
+        <dl> 
+            <dt>HTML</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat consequatur non ipsa consequuntur maxime facere numquam ea dolorum rem corrupti, illum esse veniam neque? Labore unde magnam fugit tempore.</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheet</dd>
+        </dl>
+
         <!-- tables -->
 
         <table border="1">
@@ -102,7 +110,7 @@
             </tbody>
         </table>
 
-        <table border="2">
+        <table border="2" title="employee table">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -133,5 +141,31 @@
                 </tr>
             </tbody>
         </table>
+        <br><br>
+        <form action="./sample.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+
+            <input type="checkbox" name="electronic" value="TV">TV
+            <input type="checkbox" name="electronic" value="Fridge">Fridge
+
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+
+            <input type="datetime-local" title="Date and Time">
+
+
+            <!-- <input type="password">
+
+            <input type="file">
+
+            <input type="color">
+
+            <input type="checkbox" name="checkbox"> -->
+            <button>Submit</button>
+        </form>
+        <br><br><br><br>
     </body>
  </html>
