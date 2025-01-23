@@ -1,0 +1,29 @@
+1. Create a news paper with a heading, images, and a paragraph.
+2. Create an image, video gallery with a heading, short description.
+3. Create a list of products with type Roman numbers.
+4. Create a button with link to another internal html page.
+5. Craete an image link to another website.
+6. Create Question paper with 10 questions about HTML.
+    Questions, Options and Answer.
+    Example:
+        1. What is HTML?
+            i. Hypertext Markup Language
+            ii. Hypertext Manipulation Language
+            iii. Hyper Manipulation Language
+            iv. Hyper Markup Language
+
+                A. Hypertext Markup Language
+
+7. Create a college table with the following details.
+    -> Name, Roll No, Marks, Percentage
+
+8. Create a worksheet of employees with the following details.
+    -> Date, Day, Work, Remarks
+    -> Take full row if the employee is on leave.
+    -> Take multiple rows if the employee done multiple works in a day.
+
+9. Create a form with the following details.
+    -> Name, username, number, email, password, confirm Password
+
+10. Create a description list for the following details.
+    -> HTML, CSS, JAVASCRIPT, REACTJS, PYTHON
