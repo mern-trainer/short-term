@@ -1,5 +1,5 @@
 1. Create a news paper with a heading, images, and a paragraph.
-2. Create an image, video gallery with a heading, short description.
+2. Create an image, video gallery with a heading, short description [1:1 aspect ratio].
 3. Create a list of products with type Roman numbers.
 4. Create a button with link to another internal html page.
 5. Craete an image link to another website.
