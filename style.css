@@ -1,3 +1,54 @@
-.paragraph{
-    background-color: green;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    /* font-size: 20px; */
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+.logo{
+    height: 8px;
+}
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+video{
+    width: 100%;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-content{
+    color: white;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -25%);
+    left: 50%;
+    top: 25%;
+    line-height: 2;
+}
+
+button{
+    padding: 10px;
+    /* background-color: red;
+    border: 2px solid black;
+    border-radius: 30px; */
+    border: none;
 }
