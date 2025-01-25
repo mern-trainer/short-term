@@ -1,0 +1,20 @@
+1. Sum of 3 numbers using function.
+2. Write a function to check whether a number is prime or not.
+3. Write a function to check whether a number is even or odd.
+4. Write a function to check whether a number is positive or negative.
+5. Write a function to check whether a number is divisible by 5 or not.
+6. Reverse a string
+7. Swap 2 numbers
+8. Find the largest number among 2 numbers
+9. Find the smallest number among 2 numbers
+10. Find the largest number among 3 numbers
+11. Find the smallest number among 3 numbers
+12. Find the largest number in an array
+13. Find the smallest number in an array
+14. Sum of all elements in an array
+15. Find the index of the largest number in an array
+16. Find the index of the smallest number in an array
+17. Find the length of a string without using length property
+18. Find the character at a given index in a string without using build in methods
+19. Find the index of a given character in a string
+20. Find the frequency of a given character in a string
