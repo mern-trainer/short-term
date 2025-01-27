@@ -9,3 +9,7 @@
 9. Create a function to find all numbers not divisible by 3 in an array using filter.
 10. Create a function to find all numbers divisible by 2 and 5 in an array using filter.
 
+11. Create a callback function to find cube of a given number. [First find the square of the number and then find the cube of the square.]
+12. Create a callback function to create a sentence from a given strings. [3 words => 1 sentence.]
+13. Create a callback function to print the sum of array elements [numbers].
+14. Create a callback function to find whether a number is prime or not.
