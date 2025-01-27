@@ -24,3 +24,21 @@ console.log(arr.toString()) // convert the array to string;
 console.log(arr.join("+")); // convert the array to string;
 
 
+// map, filter
+
+const arr2 = [1, 2, 3, 4, 5, 6, 7];
+
+// const res = arr2.filter(function (element) {
+//     return element != 4
+// })
+
+// console.log(res);
+
+const res = arr2.map(function (element) {
+    if (element == 4) {
+        return element * 10
+    }
+    return element
+})
+
+console.log(res);
