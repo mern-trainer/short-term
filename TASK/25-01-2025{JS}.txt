@@ -18,3 +18,5 @@
 18. Find the character at a given index in a string without using build in methods
 19. Find the index of a given character in a string
 20. Find the frequency of a given character in a string
+
+

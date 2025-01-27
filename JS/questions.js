@@ -27,3 +27,28 @@ const slicedUsername = username.slice(0, 3)
 const hiddenEmail = slicedUsername + "****@" + domain
 
 console.log(hiddenEmail);
+
+
+const number = 7
+let flag = 0
+for (let i = 2; i <= number / 2; i++) {
+    if (number % i == 0) {
+        flag = 1
+    }
+}
+
+if(flag == 0){
+    console.log("Prime");
+}else{
+    console.log("Not Prime");
+}
+
+const arr = [1, 2, 3, 4, 8, 2, 5, 4, 10, 9, 100];
+let maxIndex = 0
+for (let i = 0; i < arr.length; i++){
+    if (arr[i] > arr[maxIndex]) {
+        maxIndex = i
+    }
+}
+
+console.log(maxIndex);
