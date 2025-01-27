@@ -1,0 +1,11 @@
+1. Create a function to double all numbers in an array using map.
+2. Create a function to find all even numbers in an array using filter.
+3. Create a function to find all odd numbers in an array using filter.
+4. Create a function to find all numbers greater than a given number in an array using filter.
+5. Create a function to find all numbers less than a given number in an array using filter.
+6. Create a function to find all numbers divisible by 5 in an array using filter.
+7. Create a function to find all numbers not divisible by 5 in an array using filter.
+8. Create a function to find all numbers divisible by 3 in an array using filter.
+9. Create a function to find all numbers not divisible by 3 in an array using filter.
+10. Create a function to find all numbers divisible by 2 and 5 in an array using filter.
+
