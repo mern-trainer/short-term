@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-inline: 20px;
+}
+
+.header img{
+    width: 100px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.learn-more{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero .content{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+    line-height: 2.4;
+    color: white;
+}
+
+.hero .content button{
+    padding: 10px;
+    border: none;
+}
