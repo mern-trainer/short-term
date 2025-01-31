@@ -1,0 +1,10 @@
+.todo-card{
+    background-color: gray;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
