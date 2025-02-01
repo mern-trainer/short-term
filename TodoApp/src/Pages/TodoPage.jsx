@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react"
+import { useState } from "react"
 
 const TodoPage = () => {
 
@@ -27,9 +27,9 @@ const TodoPage = () => {
         if (editedTodo == "") {
             return alert("Please enter a todo")
         }
-        // if (todos.indexOf(editedTodo) ) {
-        //     return alert("Todo already exists")
-        // }
+        if (todos.includes(editedTodo) && todos.indexOf(editedTodo) != idx) {
+            return alert("Todo already exists")
+        }
         const result = todos.map((task, index) => {
             if (index == idx) {
                 return editedTodo
@@ -56,7 +56,7 @@ const TodoPage = () => {
                 todos.map((task, index) => {
                     return <div key={index} className="todo-container">
                         <div>{
-                            editTodo == index ? <div className="edit-form-container">
+                            editTodo == index ? <div className="form-container">
                                 <input
                                     type="text"
                                     placeholder="Eg: Buy Groceries"
@@ -65,7 +65,7 @@ const TodoPage = () => {
                                     onChange={(changeEvent) => setEditedTodo(changeEvent.target.value)}
                                 />
                                 <button onClick={() => handleUpdate(index)}>Update</button>
-                            </div> : task}</div>
+                            </div> : <div>{task}</div>}</div>
                         <div className="button-container">
                             <button className="delete" onClick={() => handleDelete(index)}>Delete</button>
                             <button className="edit" onClick={() => { setEditTodo(index); setEditedTodo(task) }}>Edit</button>
