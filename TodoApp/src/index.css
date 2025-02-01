@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-container{
+  width: 450px;
+}
+
+.form-container input{
+  padding: 10px;
+  border-radius: 4px;
+  outline: 0;
+  border: 3px solid gray;
+}
+
+.form-container button{
+  padding: 10px;
+  background-color: rgb(45, 101, 45);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.container .form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    width: 450px;
+}
+
+.list-container .todo-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.button-container{
+  margin-top: 12px;
+    display: flex;
+    gap: 5px;
+}
+
+.button-container button{
+    width: 100%;
+    border: none;
+}
+
+.delete{
+  padding: 8px;
+  background-color: rgb(235, 63, 63);
+  color: white;
+}
+
+.edit{
+  padding: 8px;
+  background-color: rgb(65, 50, 203);
+  color: white;
+}
+
+.edit-form-container{
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.edit-form-container input{
+  width: 100%;
+  padding: 7px;
+  outline: 0;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.edit-form-container button{
+  background-color: rgb(13, 76, 13);
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+}
